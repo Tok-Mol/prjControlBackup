@@ -23,3 +23,14 @@ FS_PRM_STR_FILE_NAME_NOT_STR = "Аргумент (str_file_name: путь фай
 FS_PRM_STR_FILE_NAME_NOT_FILE = "Файл не обнаружен."
 FS_ERROR = "Ошибка определения размера файла"
 
+# scr/pkt_filesystem/fs_journal.py
+# > def fsj_journal_date(str_path:str, str_file:str, lst_data:list, bol_reverse:bool)->bool:
+JD_LOGGER_START = "Старт генерации Журнала ДАТА."
+JD_PRM_STR_PATH_NOT_STR = "Аргумент (str_path: путь для хранения файла-журнала) должен быть строкой."
+JD_PRM_STR_PATH_NOT_FOLDER = "Папка для хранения файла-журнала."
+JD_PRM_STR_FILE_NOT_STR = "Аргумент (str_file: имя файла-журнала) должен быть строкой."
+JD_PRM_BOL_RVRS_NOT_BOOL = "Аргумент (bol_reverse: тип сортировки) должен быть bool."
+JD_LST_DATA_SORT_NOT_DATA = "Отсортированный список данных нулевого размера."
+JD_ERROR_GNR = "Ошибка генерации Журнала ДАТА."
+JD_LOGGER_FINISH = "Окончание генерации Журнала ДАТА."
+
